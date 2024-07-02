@@ -31,13 +31,10 @@ img{
     text-align: left;
 }
 
-h1 {
-    color: #5BBE42;
-}
-
 h1 a {
     color: #5BBE42;
 }
+
 
 footer img {
     width: 40px;
@@ -64,6 +61,13 @@ footer p {
 
 nav a {
     font-size: 20px;
+}
+
+a:hover {
+    color: white;
+    background-color: #5BBE42;
+    padding: 4px
+    
 }
 
 nav a:hover {
