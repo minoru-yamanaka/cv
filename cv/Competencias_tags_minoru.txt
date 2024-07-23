@@ -1,0 +1,339 @@
+## Relação das competências, generalizada em até 25 tags (Para o LinkedIn)
+
+### Educação
+- **Técnico em Informática para Internet · SENAC Lapa Tito, 2024 – 2026**:
+  - Desenvolvimento Full-Stack
+  - Desenvolvimento Front-End
+  - Desenvolvimento Back-End
+
+  - Full-Stack Development
+  - Front-End Development
+  - Back-End Development
+
+- **Análise e Desenvolvimento de Sistemas · UNICID Universidade Cidade de São Paulo, 2022 – 2024**:
+  - Engenharia de Software
+
+  - Software Engineering
+
+
+### Formação Complementar
+- **Implementação em Big Data · SENAI Roberto Simonsen, jul/24 - ago/24**:
+  - Big Data
+  - Cloud Computing
+
+  - Big Data
+  - Cloud Computing
+
+
+- **Programação em Python para Data Science · SENAI Ary Torres, jul/24 - Ago/24**:
+  - Ciência de Dados
+  - Machine Learning
+
+  - Data Science
+  - Machine Learning
+
+- **Power BI · SENAI Orlando Laviero Ferraiuolo, jun/24**:
+  - Análise de Dados
+  - Business Intelligence
+
+  - Data Analysis
+  - Business Intelligence
+
+- **Programação em Python · SENAI José Ephim Mindlin, jan/24 - abr/24**:
+  - Desenvolvimento Python
+
+  - Python Development
+- **Web Design, Front End · SENAI Roberto Simonsen, jan/24 - abr/24**:
+  - Desenvolvimento Front-End
+  - UX/UI Design
+  - Prototipação
+
+  - UX/UI Design
+  - Prototipação
+  - Design de Interfaces
+
+- **Programação Oracle, Java Foundations · SENAI Mariano Ferraz, nov/23 - dez/23**:
+  - Programação Java
+  - Bancos de Dados
+
+  - Java Programming
+  - Databases
+
+
+- **Desenvolvedor de Aplicações para Android · SENAI Mariano Ferraz, out/23 - dez/23**:
+  - Desenvolvimento Mobile
+  - Programação Java
+
+  - Mobile Application Development
+  - Java Programming
+
+
+### Certificados
+- **Design Centrado no Usuário · PUCRS, jul/24**:
+  - UX/UI Design
+  - Prototyping
+  - Interface Design
+
+  - UX/UI Design
+  - Prototyping
+  - Interface Design
+
+- **Compliance e Proteção de Dados · PUCRS, jul/24**:
+  - Segurança da Informação
+
+  - Information Security
+
+- **Soluções Ágeis · SEBRAE, jul/24**:
+  - Metodologias Ágeis
+
+  - Agile Methodologies
+
+- **Introdução à Ciência de Dados · FGV, jul/24**:
+  - Data Science
+  - Análise de Dados
+
+  - Data Science
+  - Data Analysis
+
+- **Java Foundations · Oracle, dez/23**:
+  - Programação Java
+
+  - Java Programming
+
+- **Microsoft Power BI · Fundação Bradesco, mai/23**:
+  - Business Intelligence
+  - Análise de Dados
+
+  - Business Intelligence
+  - Data Analysis
+
+
+- **Google Fundamentos do Marketing Digital, abr/23**:
+  - Marketing Digital
+  - Análise de Métricas
+
+  - Digital Marketing
+  - Metrics Analysis
+
+- **Projetos de Sistemas de TI · Fundação Bradesco, mar/23**:
+  - Gerenciamento de Projetos
+  - Metodologias Ágeis
+
+  - IT Project Management
+  - Agile Methodologies
+
+- **Java · Devmedia, Set/22**:
+  - Programação Java
+
+  - Java Programming
+
+- **Programação · Devmedia, jun/22**:
+  - Desenvolvimento de Software
+  - Desenvolvimento Web
+
+  - Software Development
+  - Web Development
+
+- **CSS · Devmedia, jun/22**:
+  - Design de Interfaces
+  - Desenvolvimento Web
+
+  - Interface Design
+  - Web Development
+
+- **HTML · Devmedia, jun/22**:
+  - Desenvolvimento Web
+
+  - Web Development
+
+
+### Experiência Profissional
+
+- **Analista de E-commerce**:
+  - Gestão de E-commerce
+  - Análise de Performance
+
+  - E-commerce Management
+  - Performance Analysis
+
+
+- **Gerente de Loja**:
+  - Gestão Operacional
+  - Automação de Processos
+
+  - Operational Management
+  - Process Automation
+
+- **Gerente de Lojas**:
+  - Liderança
+  - Transformação Digital
+
+  - Leadership
+  - Digital Transformation
+
+- **Vendedor**:
+  - Técnicas de Vendas
+
+  - Sales Techniques
+
+### Competências Generalistas (Tags)
+
+1. Desenvolvimento Full-Stack , Full-Stack Development
+2. Desenvolvimento Front-End , Front-End Development
+3. Desenvolvimento Back-End , Back-End Development
+4. Engenharia de Software, Software Engineering
+5. Big Data
+6. Cloud Computing
+7. Ciência de Dados , Data Science
+8. Machine Learning 
+9. Análise de Dados , Data Analysis
+10. Business Intelligence
+11. Desenvolvimento Python , Python Development
+12. Programação Java , Java Programming
+13. Desenvolvimento Mobile , Mobile Application Development
+14. UX/UI Design
+15. Prototipação , Prototyping
+16. Design de Interfaces , Interface Design
+17. Segurança da Informação , Information Security
+18. Metodologias Ágeis , Agile Methodologies
+19. Gerenciamento de Projetos , IT Project Management
+20. Desenvolvimento de Software , Software Development
+21. Desenvolvimento Web , Web Development
+22. Marketing Digital , Digital Marketing
+23. Análise de Métricas, Metrics Analysis
+24. Gestão de E-commerce , E-commerce Management
+25. Análise de Performance , Performance Analysis
+
+## Palavras Chave por cargo (Fonte :https://www.vagas.com.br/mapa-de-carreiras/)
+
+Analista Desenvolvedor WEB
+
+NET 
+MVC 
+SISTEMAS WEB
+DESENVOLVIMENTO DE SISTEMAS
+DESENVOLVIMENTOE MANUTENÇÃO 
+SQL SERVER
+UTILIZANDO
+CSS
+JAVASCRIPT JQUERY
+ASP BANCODE DADOS
+HTML
+PHP
+
+Analista Desenvolvedor
+
+DADOS 
+SQLSERVER
+WEB
+ANALISTA DESENVOLVEDOR
+MANUTENÇÃO DE SISTEMAS
+ORACLE
+MVC
+DESENVOLVIMENTO DE APLICAÇOES 
+JAVA 
+PHP
+UTILIZANDO LEVANTAMENTO DE REQUISITOS
+DESENVOLVIMENTO E MANUTENÇÃO 
+C 
+ASP
+ANALISE E DESENVOLVIMENTO
+DESENVOLVIMENTO DE SISTEMAS
+BANCO DE DADOS
+NET
+
+Desenvolvedor Front-end
+
+SEO 
+BOOTSTRAP
+DESENVOLVIMENTO DE INTERFACES
+WORDPRESS 
+FRONT END
+DESENVOLVIMENTO E MANUTENÇÃO
+PHP 
+JS
+WEB JQUERY 
+SASS 
+DESENVOLVIMENTO DE SITES
+JAVASCRIPT 
+CSS3 
+HTML 
+HTML5 
+CSS
+
+Desenvolvedor Trainee
+
+SQL SERVER 
+DESENVOLVIMENTO DE SISTEMAS
+DESENVOLVIMENTO E MANUTENÇÃO
+DESENVOLVEDOR 
+MICROSOFT 
+WEB
+CSS
+JAVA
+LINGUAGEM
+HTML PHP
+JAVASCRIPT
+JSP 
+UTILIZANDO 
+ASP
+NET
+C 
+BANCO DE DADOS
+
+Analista de Dados
+
+ANALISE DE DADOS 
+BANCO DE DADOS
+BASE DE DADOS 
+BASES DE DADOS
+SQLSERVER
+ELABORAÇÃO DE RELATORIOS
+GERAÇÃO DE RELATORIOS 
+BI 
+CRIAÇÃO
+DESENVOLVIMENTO
+ETL
+INFORMAÇOES
+CLIENTES
+PROCESSOS
+SAS 
+
+FAÇA UMA LISTA DAS COMPETÊNCIAS ACIMA SEM REPETIÇÕES E ME RETORNE EM UMA LISTA: 
+
+2. MVC
+3. Sistemas Web
+4. Desenvolvimento de Sistemas
+5. Desenvolvimento e Manutenção
+6. SQL 
+7. CSS
+8. JavaScript
+10. ASP
+11. Banco de Dados
+12. HTML
+13. PHP
+14. Análise e Desenvolvimento
+15. Dados
+16. Oracle
+17. Desenvolvimento de Aplicações
+18. Java
+19. Levantamento de Requisitos
+21. SEO
+22. Bootstrap
+23. Desenvolvimento de Interfaces
+25. Front-end
+27. Desenvolvimento de Sites
+28. CSS3
+29. HTML5
+31. Análise de Dados
+32. Base de Dados
+33. Elaboração de Relatórios
+34. Geração de Relatórios
+35. BI
+36. Criação
+38. ETL
+39. Informações
+40. Clientes
+41. Processos
+
+
