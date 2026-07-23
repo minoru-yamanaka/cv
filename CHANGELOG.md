@@ -3,6 +3,11 @@ Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
 
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) , e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## 0.1.2 - 2026-07-23
+
+### Adicionado
+- Adição dos certificados de capacitação "Desenvolvimento Docente: Blueprint Educacional" e "Desenvolvimento Docente: Alinhamento às DCNs de Medicina de 2025" do Mackenzie.
+
 ## 0.1.1 - 2024-07-03
 
 ### Adicionado

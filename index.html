@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
     <title>Minoru Yamanaka</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -22,9 +23,183 @@
             <div class="terminal-title">guest@minoruyamanaka.dev: ~</div>
         </div>
         <div class="terminal-body">
-            <div class="terminal-command-line">
-                <span class="prompt">guest@minoruyamanaka.dev</span><span class="prompt-arrow">:</span><span class="prompt-dir">~</span><span class="prompt-arrow">$</span> <span class="command">./visualizar_cv.sh</span><span class="cursor">|</span>
+            <div class="terminal-command-line" id="command-line-trigger">
+                <span class="prompt">guest@minoruyamanaka.dev</span><span class="prompt-arrow">:</span><span class="prompt-dir">~</span><span class="prompt-arrow">$</span>
+                <span class="command-wrapper">
+                    <input type="text" id="terminal-input" value="./visualizar_cv.sh" autocomplete="off" spellcheck="false" autofocus />
+                    <span class="cursor">|</span>
+                </span>
             </div>
+            
+            <!-- Contêiner do Modo Visual do Recrutador -->
+            <div id="recruiter-ui-container" class="search-hidden">
+                <!-- Log de inicialização animado -->
+                <div id="loader-log" class="terminal-loader-log"></div>
+                               <pre id="recruiter-dashboard-raw" style="display: none;">
+[DIVIDER]
+  📊 INTERFACE DO RECRUTADOR v1.0.0                      [ MINORU Y. ]
+[DIVIDER]
+
+👤 DADOS PESSOAIS       [ Cientista de Dados & Analista de Sistemas ]
+-----------------
+Nome:    Minoru Yamanaka
+Local:   Barueri, SP - Brasil
+Contato: minoruyamanka@icloud.com
+Site:    https://minoru-yamanaka.github.io/cv/
+GitHub:  https://github.com/minoru-yamanaka
+LinkedIn: https://www.linkedin.com/in/minoru-yamanaka-2272a6243/
+
+🚀 SOBRE MIM
+------------
+Cientista de Dados e Analista de Sistemas, com formação em ADS e Especialização Técnica em Informática para Internet. Minha trajetória é marcada pela convergência entre tecnologia, inovação e gestão, com sólida experiência em transformar dados brutos em inteligência estratégica.
+
+Atualmente, lidero a frente de Business Intelligence (BI) para o curso de Medicina do Mackenzie, onde estruturei indicadores de desempenho e metodologias ativas, estabelecendo um novo modelo de gestão baseada em dados na unidade Alphaville.
+
+Possuo domínio técnico em linguagens como Java, Python e SQL, além de sólido conhecimento em desenvolvimento web e ferramentas de análise como Power BI. Minha bagagem inclui a docência em tecnologia no SENAC SP, o que consolidou minhas habilidades de liderança e comunicação, facilitando a interação entre equipes multidisciplinares sob metodologias ágeis (Scrum/Kanban).
+
+Principais resultados:
+- Como Cientista de Dados, liderei o desenvolvimento e a implantação do sistema de avaliação para o primeiro curso de Medicina do Mackenzie em São Paulo. Por meio de soluções de Business Intelligence (BI), estruturei indicadores de desempenho acadêmico e metodologias ativas, transformando dados em inteligência estratégica para a coordenação e estabelecendo um modelo de gestão baseada em dados na unidade Alphaville.
+- No SENAC SP, ministrei aulas de Java com foco em Programação Orientada a Objetos (POO) e boas práticas. Adaptei conteúdos a diferentes níveis de conhecimento, acompanhei o progresso dos alunos e promovi um ambiente inclusivo e motivador de aprendizagem.
+- Atuei como professor voluntário de Desenvolvimento Web na ESF, ministrando aulas e colaborando na gestão e adaptação de conteúdos didáticos, promovendo um ensino acessível e alinhado aos objetivos pedagógicos e ao perfil das turmas.
+- Na Japan Society, automatizei o atendimento via WhatsApp com integração de respostas automáticas e desenvolvi planilhas em Excel para gestão de dados e análise de indicadores de performance, otimizando o suporte ao cliente e a tomada de decisões.
+
+Busco oportunidades em Gestão de Projetos (PMO), Análise de Dados ou Desenvolvimento Web, onde possa aplicar minha visão analítica para liderar iniciativas de alto impacto, otimizar processos e garantir entregas eficientes baseadas em evidências.
+
+🎓 FORMAÇÃO ACADÊMICA
+---------------------
+- Pós-Graduação Lato Sensu em Inteligência Artificial e Data Science
+  Universidade Presbiteriana Mackenzie, 2026 – 2027.
+- Técnico em Informática para Internet
+  SENAC Lapa Tito, 2024 – 2026.
+- Análise e Desenvolvimento de Sistemas
+  UNICID Universidade Cidade de São Paulo, 2022 – 2024.
+
+🚀 FORMAÇÃO COMPLEMENTAR
+------------------------
+- Desenvolvimento de Aplicações com IA Generativa utilizando Google Antigravity (SENAI Ary Torres) - Mai/26 a Jun de 2026 - 40 horas.
+- Desenvolvedor Mobile (SENAC Lapa Tito) - Jul/24 a Set de 2025 - 500 horas.
+- Desenvolvedor Back-End (SENAC Lapa Tito) - Jul/24 a Set de 2025 - 500 horas.
+- Desenvolvedor Front-End (SENAC Lapa Tito) - Jul/24 a Jun de 2025 - 264 horas.
+- Banco de Dados para Data Science (SENAI Nadir Dias de Figueiredo) - Ago a Set de 2024 - 40 horas.
+- Office Excel (SENAI Nadir Dias de Figueiredo) - Ago de 2024 - 20 horas.
+- Implementação em Big Data (SENAI Roberto Simonsen) - Jul a Ago de 2024 - 40 horas.
+- Programação em Python para Data Science (SENAI Ary Torres) - Jul a Ago de 2024 - 60 horas.
+- POWER BI (SENAI Orlando Laviero Ferraiuolo) - Jun de 2024 - 20 horas.
+- Programação em Python (SENAI Roberto Simonsen) - Jan a Abr de 2024 - 80 horas.
+- Web Design, Front-End (SENAI josé Ephim Mindlin) - Jan a Abr de 2024 - 180 horas.
+- Oracle, Java Foundations (SENAI Mariano Ferraz) - Nov a Dez de 2023 - 120 horas.
+- Desenvolvedor de Aplicações para Android (SENAI Mariano Ferraz) - Out a Dez de 2023 - 40 horas.
+
+🏆 CERTIFICADOS DESTACADOS
+-------------------------
+- Desenvolvimento Docente: Alinhamento às DCNs de Medicina de 2025 (Mackenzie) - Jun de 2026 - 40 horas.
+- Desenvolvimento Docente: Blueprint Educacional (Mackenzie) - Jan de 2026 - 30 horas.
+- Metodologias Ativas (FGV) - Jan de 2026 - 1 hora.
+- Criação de assistentes de pesquisa com GPTs personalizados no ChatGPT e NotebookLM (Mackenzie) - Jan de 2026 - 4 horas.
+- Design Centrado no Usuário (PUCRS) - Jul de 2024 - 10 horas.
+- Compliance e Proteção de Dados (PUCRS) - Jul de 2024 - 10 horas.
+- Soluções Ágeis (SEBRAE) - Jul de 2024 - 24 horas.
+- Gestão de Recursos Humanos (SEBRAE) - Jul de 2024 - 15 horas.
+- Introdução à Ciência de Dados (FGV) - Jul de 2024 - 60 horas.
+- Java Foundations · Dez de 2023 - 120 horas.
+- Power BI (Fundação Bradesco) - Mai de 2023 - 5 horas.
+- Google Fundamentos do Marketing Digital (Google) - Abr de 2023 - 40 horas.
+- Projetos de Sistemas de TI (Fundação Bradesco) - Mar de 2023 - 15 horas.
+- Java · Devmedia, Set/22.
+- Programação · Devmedia, jun/22.
+- CSS · Devmedia, jun/22.
+- HTML · Devmedia, jun/22.
+
+💡 PROJETOS PESSOAIS
+--------------------
+- Site CV Faculdade: Projeto acadêmico, portfólio colaborativo de currículos.
+- Calc Investimento: Projeto Calculadora de investimento de valor futuro.
+- Baralho Cigano: Aplicação Android oráculo que exibe previsões do Baralho Cigano.
+- CV Github: Meu currículo, site hospedado no GitHub.
+
+🛠️ HABILIDADES E COMPETÊNCIAS
+----------------------------
+Hard skills:
+- Java, em aplicações mobile, desenvolvidas em Android Studio.
+- HTML, CSS e JavaScript, em desenvolvimento WEB com responsividade.
+- SQL, análise de dados.
+- Metodologias Ágeis.
+
+Ferramentas:
+- Git e Changelog.
+- Prototipação (Figma), Canvas e Photoshop.
+- Suíte Office, Power BI e MySQL.
+- VS Code, Eclipse e Android Studio.
+
+Soft skills:
+- Sou proativo, colaborativo e criativo.
+- Tenho empatia, boa comunicação e sou alegre.
+- Sou flexível, dinâmico e compreensível.
+
+Interesses:
+- Desenvolvimento Front-End.
+- Desenvolvimento Mobile.
+- Web Design.
+- Prototipação de Interfaces Dinâmicas.
+- Java (Desenvolvimento Mobile).
+- Dashboard Power BI e Data storytelling.
+
+💼 EXPERIÊNCIA PROFISSIONAL
+--------------------------
+• Cientista de Dados | Curso de Medicina – Mackenzie
+  INSTITUTO PRESBITERIANO MACKENZIE - São Paulo, SP · Período integral · jan de 2026 – atual.
+  - Atuação estratégica na coordenação de atividades do curso de Medicina, focada na aplicação de inteligência de dados para suporte à gestão acadêmica.
+  - Business Intelligence (BI): Desenvolvimento e manutenção de dashboards de indicadores (NPS) para a coordenação do Curso de Medicina.
+  - Análise de Dados: Transformação de dados brutos em insights acionáveis utilizando Power BI, DAX e Python.
+  - Automação e Gestão: Estruturação de planilhas e fluxos de trabalho para otimizar a coordenação de atividades e a coleta de feedbacks institucionais.
+  - Suporte à Coordenação: Colaboração direta em projetos de inteligência voltados à melhoria contínua da experiência acadêmica no campus Alphaville (CCBS).
+
+• Professor de TI em Desenvolvimento Web
+  Educação Sem Fronteiras - ESF SP 2025 · Voluntário · fev de 2025 - jan de 2026.
+  - Ministrar aulas sobre diversas tecnologias, incluindo gestão de projetos, programação e outras tecnologias.
+  - Adaptar o conteúdo das aulas para atender a diferentes níveis de conhecimento dos alunos.
+  - Desenvolver metodologias de ensino acessíveis e dinâmicas.
+  - Acompanhar o progresso dos alunos e fornecer suporte técnico e motivacional.
+  - Criar um ambiente de aprendizagem acolhedor e inclusivo, respeitando a diversidade cultural.
+
+• Assistente de Hub de Carreiras
+  The Developer's Conference - TDC SP 2024 · Voluntário · set de 2024.
+  - Assistente de Hub de Carreiras.
+  - Acompanhar as atividades da sala, dando suporte aos coordenadores e palestrantes.
+  - Recepção e conferência de crachás dos congressistas na porta da sala.
+  - Auxiliar congressistas com os horários das palestras e sinalização de salas.
+  - Auxiliar os coordenadores e palestrantes sinalizando o tempo de palestra.
+
+• Analista de E-commerce
+  Japan Society · Trainee · dez de 2020 - ago de 2021.
+  - Emissão e acompanhamento de NF de produtos vendidos via E-Commerce.
+  - Apoio no planejamento e controle do relatório de vendas do E-Commerce.
+  - Elaboração e revisão do fluxo de compras do E-Commerce.
+  - Cadastro de produtos e clientes na plataforma digital de vendas.
+  - Apoio da criação das políticas de atendimento ao cliente.
+  - Apoio no projeto de automatização do processo de vendas online via WhatsApp.
+
+[DIVIDER]
+ [1] Ver GitHub   [2] Baixar PDF   [3] Contratar   [4] Sair do Modo UI
+[DIVIDER]
+                </pre>
+
+                <!-- Dashboard ASCII formatado e visível no modo visual -->
+                <pre id="recruiter-dashboard" class="recruiter-dashboard search-hidden"></pre>
+
+                <!-- Prompt de opções -->
+                <div id="option-command-line" class="terminal-option-line search-hidden">
+                    <span class="option-prompt">Digite o número da opção desejada:</span>
+                    <span class="command-wrapper">
+                        <input type="text" id="option-input" value="" autocomplete="off" spellcheck="false" maxlength="1" />
+                        <span class="cursor">|</span>
+                    </span>
+                </div>
+                
+                <!-- Mensagem de erro temporária para opções inválidas -->
+                <div id="option-error-message" class="option-error search-hidden"></div>
+            </div>
+
             <div class="container">
 
         <nav>
@@ -64,7 +239,7 @@
                 </p>
 
                 <p>
-                    Possuo domínio técnico em linguagens como <strong>Java, Python e SQL</strong>, além de sólido
+                    Possuo domínio técnico in linguagens como <strong>Java, Python e SQL</strong>, além de sólido
                     conhecimento em
                     desenvolvimento web e ferramentas de análise como <strong>Power BI</strong>. Minha bagagem inclui a
                     docência em tecnologia
@@ -141,7 +316,7 @@
                 <h4>Formação Complementar 🚀</h4>
                 <ul class="timeline">
                     <li><a href=" ">Desenvolvimento de Aplicações com IA Generativa utilizando Google Antigravity (SENAI Ary
-                        Torres) - Mai/26 a Jun de 2026 - 40 horas.</a></li>
+                        Torres) - Mai/26 a Jun de 2026 - 40 hours.</a></li>
                     <li><a href=" ">Desenvolvedor Mobile (SENAC Lapa Tito) - Jul/24 a Set de 2025 - 500 horas.</a></li>
                     <li><a href="https://github.com/minoru-yamanaka/cv/blob/main/certificados/Senac_Backend_2025.pdf">Desenvolvedor
                         Back-End (SENAC Lapa Tito) - Jul/24 a Set de 2025 - 500 horas.</a></li>
@@ -178,6 +353,12 @@
             <section>
                 <h3>🏆 Certificados Destacados </h3>
                 <ul class="timeline">
+                    <li><a
+                        href="https://github.com/minoru-yamanaka/cv/blob/main/certificados_mackenzie/Dcns.pdf">Desenvolvimento
+                        Docente: Alinhamento às DCNs de Medicina de 2025 (Mackenzie) - Jun de 2026 - 40 horas.</a></li>
+                    <li><a
+                        href="https://github.com/minoru-yamanaka/cv/blob/main/certificados_mackenzie/Blueprint%20educacional.pdf">Desenvolvimento
+                        Docente: Blueprint Educacional (Mackenzie) - Jan de 2026 - 30 horas.</a></li>
                     <li><a href="https://github.com/minoru-yamanaka/cv/blob/main/certificados/METODOLOGIAS_ATIVAS_Fgv.pdf">Metodologias
                         Ativas (FGV) - Jan de 2026 - 1 hora.</a></li>
                     <li><a
@@ -193,7 +374,7 @@
                     <li><a
                         href="https://github.com/minoru-yamanaka/cv/blob/main/certificados/Certificado%20_solucoes_ageis_0724.pdf">Soluções
                         Ágeis (SEBRAE) - Jul de 2024 - 24 horas.</a></li>
-                    <li><a href="https://github.com/minoru-yamanaka/cv/blob/main/certificados/Sebrae_RH.pdf">Gestão de
+                    <li><a href="https://github.com/minoru-yamanaka/cv/blob/main/Sebrae_RH.pdf">Gestão de
                         Recursos Humanos (SEBRAE) - Jul de 2024 - 15 horas.</a></li>
                     <li><a
                         href="https://github.com/minoru-yamanaka/cv/blob/main/certificados/Fgv_introducao_a_ciencia_de_dados.pdf">Introdução
@@ -241,28 +422,34 @@
             <section>
                 <h3>🛠️ Habilidades e Competências </h3>
 
-                <h4>Hard skills 💻</h4>
-                <ul class="skills-grid">
-                    <li>Java, em aplicações mobile, desenvolvidas em Android Studio.</li>
-                    <li>HTML, CSS e JavaScript, em desenvolvimento WEB com responsividade.</li>
-                    <li>SQL, análise de dados.</li>
-                    <li>Metodologias Ágeis.</li>
-                </ul>
+                <div class="skills-group">
+                    <h4>Hard skills 💻</h4>
+                    <ul class="skills-grid">
+                        <li>Java, em aplicações mobile, desenvolvidas em Android Studio.</li>
+                        <li>HTML, CSS e JavaScript, em desenvolvimento WEB com responsividade.</li>
+                        <li>SQL, análise de dados.</li>
+                        <li>Metodologias Ágeis.</li>
+                    </ul>
+                </div>
 
-                <h4>Ferramentas 🧰</h4>
-                <ul class="skills-grid">
-                    <li>Git e Changelog.</li>
-                    <li>Prototipação (Figma), Canvas e Photoshop.</li>
-                    <li>Suíte Office, Power BI e MySQL.</li>
-                    <li>VS Code, Eclipse e Android Studio.</li>
-                </ul>
+                <div class="skills-group">
+                    <h4>Ferramentas 🧰</h4>
+                    <ul class="skills-grid">
+                        <li>Git e Changelog.</li>
+                        <li>Prototipação (Figma), Canvas e Photoshop.</li>
+                        <li>Suíte Office, Power BI e MySQL.</li>
+                        <li>VS Code, Eclipse e Android Studio.</li>
+                    </ul>
+                </div>
 
-                <h4>Soft skills ⭐</h4>
-                <ul class="skills-grid">
-                    <li>Sou proativo, colaborativo e criativo.</li>
-                    <li>Tenho empatia, boa comunicação e sou alegre.</li>
-                    <li>Sou flexível, dinâmico e compreensível.</li>
-                </ul>
+                <div class="skills-group">
+                    <h4>Soft skills ⭐</h4>
+                    <ul class="skills-grid">
+                        <li>Sou proativo, colaborativo e criativo.</li>
+                        <li>Tenho empatia, boa comunicação e sou alegre.</li>
+                        <li>Sou flexível, dinâmico e compreensível.</li>
+                    </ul>
+                </div>
             </section>
             <br>
 
@@ -282,30 +469,31 @@
             <section>
                 <h3>💼 Experiência </h3>
 
-                <b><a href=" ">Cientista de Dados | Curso de Medicina – Mackenzie. 💡</a></b><br>
-                <a href=" ">INSTITUTO PRESBITERIANO MACKENZIE - São Paulo, SP</a>· Período integral<br>
-                jan de 2026 – atual.<br>
-                <br>
-                <ul class="timeline">
-                    <li>Atuação estratégica na coordenação de atividades do curso de Medicina, focada na aplicação de
-                    inteligência de dados para suporte à gestão acadêmica;</li>
-                    <li>Business Intelligence (BI): Desenvolvimento e manutenção de dashboards de indicadores (NPS) para a
-                    coordenação do Curso de Medicina;</li>
-                    <li>Análise de Dados: Transformação de dados brutos em insights acionáveis utilizando Power BI, DAX e
-                    Python;</li>
-                    <li>AAutomação e Gestão: Estruturação de planilhas e fluxos de trabalho para otimizar a coordenação de
-                    atividades e a coleta de feedbacks institucionais;</li>
-                    <li>Suporte à Coordenação: Colaboração direta em projetos de inteligência voltados à melhoria contínua da
-                    experiência acadêmica no campus Alphaville (CCBS).</li>
-                </ul>
+                <div class="experience-block">
+                    <b><a href=" ">Cientista de Dados | Curso de Medicina – Mackenzie. 💡</a></b><br>
+                    <a href=" ">INSTITUTO PRESBITERIANO MACKENZIE - São Paulo, SP</a>· Período integral<br>
+                    jan de 2026 – atual.<br>
+                    <br>
+                    <ul class="timeline">
+                        <li>Atuação estratégica na coordenação de atividades do curso de Medicina, focada na aplicação de
+                        inteligência de dados para suporte à gestão acadêmica;</li>
+                        <li>Business Intelligence (BI): Desenvolvimento e manutenção de dashboards de indicadores (NPS) para a
+                        coordenação do Curso de Medicina;</li>
+                        <li>Análise de Dados: Transformação de dados brutos em insights acionáveis utilizando Power BI, DAX e
+                        Python;</li>
+                        <li>AAutomação e Gestão: Estruturação de planilhas e fluxos de trabalho para otimizar a coordenação de
+                        atividades e a coleta de feedbacks institucionais;</li>
+                        <li>Suporte à Coordenação: Colaboração direta em projetos de inteligência voltados à melhoria contínua da
+                        experiência acadêmica no campus Alphaville (CCBS).</li>
+                    </ul>
+                </div>
 
                 <br><br>
 
                 <b><a
                         href="https://github.com/minoru-yamanaka/cv/blob/main/certificados/certificado_voluntariado_esf_minoru_yamanaka.pdf">Professor
                         de TI em Desenvolvimento Web 💡</a></b><br>
-                <a href="https://educacaosemfronteiras.org.br/">Educação Sem Fronteiras - ESF SP 2025</a>·
-                Voluntário<br>
+                <a href="https://educacaosemfronteiras.org.br/">Educação Sem Fronteiras - ESF SP 2025</a>· Voluntário<br>
                 fev de 2025 - jan de 2026.<br>
                 <br>
                 <ul class="timeline">
@@ -347,20 +535,25 @@
                     <li>Apoio no projeto de automatização do processo de vendas online via whatsapp.</li>
                 </ul>
 
+                <br><br>Cadastro de produtos e clientes na platarforma digital de vendas;</li>
+                    <li>Apoio da criação das políticas de atendimento ao cliente;</li>
+                    <li>Apoio no projeto de automatização do processo de vendas online via whatsapp.</li>
+                </ul>
+
                 <br><br>
 
                 <!-- <b>Gerente de Loja 🍊</b><br> 
                     <a href="">Hortifruti Célia Yukie</a>· Gerente <br> 
                     jan de 2019 - dez de 2020.<br> 
                     <br> 
-                    - Fiscalizar a abertura e fechamento do fluxo de caixa;<br> 
+                    - Fiscalizar a abertura e fechamento del fluxo de caixa;<br> 
                     - Gerir a planilha de estoque e acompanhar o abastecimento da loja;<br> 
                     - Participação na contratação e gestão da equipe.<br> 
                     - Microempreendedor: Expert em gestão financeira, contratação e liderança de equipe.<br> 
                     - Analista E-Commerce: Proficiente em emissão de NF, planejamento e controle de vendas, automação  de vendas online.<br> 
-
+ 
                 <br><br>
-
+ 
                     <b>Gerente de Lojas 🍹</b><br> 
                     <a href="">Tabacaria Gudang Hookah Lounge</a>· Gerente <br> 
                     fev de 2018 - fev de 2019.<br> 
@@ -370,16 +563,16 @@
                     - Participação na contratação e gestão da equipeFiscalizar a abertura e fechamento de caixas;<br> 
                     - Gerir a planilha de estoque e acompanhar o abastecimento da loja; <br>
                     - Participação na contratação e gestão da equipe.<br> 
-
+ 
                 <br><br>
-
+ 
                     <b>Vendedor 🍍</b><br>
                     <a href="">Hortifruti Célia Yukie</a>· Vendedor <br> 
                     jan de 2013 - dez de 2017.<br> 
                     <br> 
                     - Abertura e fechamento de caixa;<br> 
                     - Atendimento a cliente e apresentação de produtos.<br> 
-
+ 
                 </p> -->
             </section>
         </main>

@@ -69,10 +69,13 @@ body {
 }
 
 .terminal-command-line {
+    display: flex;
+    align-items: center;
     font-size: 14px;
     margin-bottom: 25px;
     border-bottom: 1px dashed #1a1a1a;
     padding-bottom: 15px;
+    cursor: text;
 }
 
 .prompt {
@@ -89,16 +92,34 @@ body {
     font-weight: bold;
 }
 
-.command {
-    color: white;
+.command-wrapper {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
     margin-left: 6px;
+    flex-grow: 1;
+}
+
+#terminal-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Kode Mono", monospace, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    caret-color: transparent; /* Oculta a caret nativa para usar a caret piscante customizada do terminal */
+    width: 20ch;
 }
 
 .cursor {
     color: #5BBE42;
-    margin-left: 3px;
+    margin-left: 1px;
     animation: blink 1s step-end infinite;
     font-weight: bold;
+    user-select: none;
+    pointer-events: none;
 }
 
 @keyframes blink {
@@ -438,4 +459,74 @@ button {
     section {
         margin-bottom: 25px;
     }
+}
+
+/* --- Realce de Busca e Filtragem Dinâmica --- */
+mark.search-highlight {
+    background-color: #5BBE42;
+    color: black;
+    padding: 0 2px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.search-hidden {
+    display: none !important;
+}
+
+/* --- Estilos para o Modo Visual do Recrutador --- */
+.recruiter-dashboard {
+    font-family: "Kode Mono", monospace, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #5BBE42; /* Verde terminal */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+    white-space: pre;
+    overflow-x: auto;
+}
+
+.terminal-loader-log {
+    font-family: "Kode Mono", monospace, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #5BBE42;
+    margin: 20px 0;
+}
+
+.terminal-option-line {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 25px;
+    border-top: 1px dashed #1a1a1a;
+    padding-top: 20px;
+    cursor: text;
+}
+
+.option-prompt {
+    color: #5BBE42;
+    font-weight: bold;
+}
+
+#option-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Kode Mono", monospace, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    caret-color: transparent; /* Oculta a caret nativa */
+    width: 1ch;
+}
+
+.option-error {
+    color: #ff5f56; /* Vermelho terminal */
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
 }
