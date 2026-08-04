@@ -3,6 +3,11 @@ Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
 
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) , e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## 0.1.3 - 2026-08-04
+
+### Adicionado
+- Adicionado o link do CV Lattes ao cabeçalho (barra de navegação) e à seção de dados pessoais do dashboard de recrutador.
+
 ## 0.1.2 - 2026-07-23
 
 ### Adicionado
