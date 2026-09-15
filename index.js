@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /**
-     * Executa as ações das opções do menu do Recrutador (1 a 4)
+     * Executa as ações das opções do menu do Recrutador (1 a 5)
      */
     function executeOption(option) {
         if (optionErrorMessage) {
@@ -171,24 +171,35 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
             case '2':
                 // Abre/Baixa o currículo em PDF
-                window.open('cv_2025.pdf', '_blank');
+                window.open('CV_Minoru_Yamanaka.pdf', '_blank');
                 optionInput.value = '';
                 updateInputWidth(optionInput);
                 break;
             case '3':
+                // Baixa o currículo em DOCX
+                const docxLink = document.createElement('a');
+                docxLink.href = 'CV_Minoru_Yamanaka.docx';
+                docxLink.download = 'CV_Minoru_Yamanaka.docx';
+                document.body.appendChild(docxLink);
+                docxLink.click();
+                document.body.removeChild(docxLink);
+                optionInput.value = '';
+                updateInputWidth(optionInput);
+                break;
+            case '4':
                 // Abre cliente de e-mail para contratação
                 window.location.href = 'mailto:minoruyamanka@icloud.com';
                 optionInput.value = '';
                 updateInputWidth(optionInput);
                 break;
-            case '4':
+            case '5':
                 // Sai do Modo Visual
                 exitVisualMode();
                 break;
             default:
                 // Mensagem de erro para opções inválidas
                 if (optionErrorMessage) {
-                    optionErrorMessage.textContent = '[!] Opção inválida. Digite um número de 1 a 4.';
+                    optionErrorMessage.textContent = '[!] Opção inválida. Digite um número de 1 a 5.';
                     optionErrorMessage.classList.remove('search-hidden');
                     
                     // Limpa o erro e o input após 2 segundos

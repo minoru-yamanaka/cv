@@ -3,6 +3,14 @@ Todas as alterações notáveis neste projeto serão documentadas neste arquivo.
 
 O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) , e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## 0.1.4 - 2026-09-14
+
+### Adicionado
+- Adicionados certificados FIAP Nano Courses (2.240 horas) em 8 categorias e certificados FAAP.
+- Atualizado o currículo para os novos arquivos `CV_Minoru_Yamanaka.pdf` e `CV_Minoru_Yamanaka.docx`.
+- Adicionada opção de download de CV em formato DOCX na barra de navegação e no terminal.
+- Padronização e alinhamento dos marcadores e da indentação do código.
+
 ## 0.1.3 - 2026-08-04
 
 ### Adicionado
